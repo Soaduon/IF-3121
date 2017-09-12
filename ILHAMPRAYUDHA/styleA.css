@@ -1,0 +1,86 @@
+.A{
+	border-top: 1px solid;
+
+    margin-top: 10;
+	margin-left:auto;
+	margin-right:auto; 
+	margin-bottom: auto;
+	text-align : center;
+	font-size: 40px;
+	font-family: tahoma;
+	background-color:#dfe1e7;
+	width:100px;
+	height:100px;
+}
+.B{
+	border-top: 1px solid;
+
+    margin-top: 10;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	text-align: center;
+	font-size: 40px;
+	font-family: tahoma;
+	background-color:#eeeff2;
+	width:100px;
+	height:100px;
+}
+.C{
+	border-top: 1px solid;
+
+    margin-top: 10;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	text-align: center;
+	font-size: 40px;
+	font-family: tahoma;
+	background-color:#dfe1e7;
+	width:100px;
+	height:100px;
+}
+.D{
+	border-top: 1px solid;
+
+    margin-top: 10;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: auto;
+	text-align: center;
+	font-size: 40px;
+	font-family: tahoma;
+	background-color:#eeeff2;
+	width:100px;
+	height:100px;
+}
+.E{
+	border-top: 1px solid;
+
+    margin-top: 10;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: auto;
+	text-align: center;
+	font-size: 40px;
+	font-family: tahoma;
+	background-color:#dfe1e7;
+	width:100px;
+	height:100px;
+}
+.F{
+	border: 4px solid;
+
+    margin-top: 20;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: auto;
+	text-align: center;
+	font-size: 40px;
+	font-family: tahoma;
+	background-color:#687291;
+	width:80px;
+	height:80px;
+	padding-top: 20px;
+	padding-right: 20px;
+}
