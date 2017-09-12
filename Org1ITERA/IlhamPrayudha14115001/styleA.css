@@ -1,7 +1,7 @@
 .A{
 	border-top: 1px solid;
 
-    margin-top: 10;
+    margin-top: 10px;
 	margin-left:auto;
 	margin-right:auto; 
 	margin-bottom: auto;
@@ -15,7 +15,7 @@
 .B{
 	border-top: 1px solid;
 
-    margin-top: 10;
+    margin-top: 10px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom:auto;
@@ -29,7 +29,7 @@
 .C{
 	border-top: 1px solid;
 
-    margin-top: 10;
+    margin-top: 10px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom:auto;
@@ -43,7 +43,7 @@
 .D{
 	border-top: 1px solid;
 
-    margin-top: 10;
+    margin-top: 10px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom: auto;
@@ -57,7 +57,7 @@
 .E{
 	border-top: 1px solid;
 
-    margin-top: 10;
+    margin-top: 10px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom: auto;
@@ -71,7 +71,7 @@
 .F{
 	border: 4px solid;
 
-    margin-top: 20;
+    margin-top: 20px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom: auto;
