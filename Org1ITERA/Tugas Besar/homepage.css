@@ -1,0 +1,15 @@
+#Header{
+	width:100%;
+	background-color: #dbba00;
+	height: 140px;
+	outline: 8px solid #dbba00;
+}
+img{
+	width:100px;
+	height: 100px;
+	float: left;
+}
+#fontHeader{
+	float:left;
+	margin-left: 20px;
+}
