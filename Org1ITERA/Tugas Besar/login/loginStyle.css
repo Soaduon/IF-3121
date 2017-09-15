@@ -1,0 +1,38 @@
+body{
+	color: white;
+}
+h1{
+	font-size: 44px;
+}
+.login {
+  position: relative;
+  float: right;
+  width: 360px;
+  height: 426px;
+  background: white;
+  border-radius: 3px;
+  padding: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+	bottom: 70px;
+	right: 70px;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+
+		
+}
+
+.login .forgot {
+  color: #000000;
+}
+
+.login .title{
+	text-align: center;
+ 	 color: #000000;
+ 	padding-top: -10px;
+ 	font-size: 30px;
+}
+
+
