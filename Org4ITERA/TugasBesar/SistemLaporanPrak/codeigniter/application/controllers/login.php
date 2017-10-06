@@ -14,7 +14,8 @@ class login extends CI_Controller
   public function procLogin()
   {
     extract($_POST);
-
+		$this->load->model('Model');
+		
     $query = $this->Model->getDataUser($_POST['username'])->result_array();
 
     if($query == null){
@@ -27,9 +28,7 @@ class login extends CI_Controller
         $username = $value['username'];
         $password = $value['password'];
         if($password == $_POST['password']){
-            $data = array(
-              'message' => "Welcome ,".$_POST['username']
-            );
+           $this->load->view('main');
         }else {
           $data = array(
             'message' => "Wrong Password"
@@ -37,7 +36,6 @@ class login extends CI_Controller
         }
       }
     }
-    $this->load->view('home',$data);
   }
 }
 
