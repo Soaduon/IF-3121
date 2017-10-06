@@ -8,8 +8,18 @@ class home extends CI_Controller
 {
 
   public function index()
-  {
-    $this->load->view('home');
-  }
+	{
+		# code...
+		$this->load->view('Home');
+	}
+	public function contactus (){
+		$this->load->view('contactus');
+	}
+	public function JadwalPraktikum (){
+		$this->load->view('JadwalPraktikum');
+	}
+	public function Login (){
+		$this->load->view('Login');
+	}
 }
 ?>
