@@ -10,7 +10,7 @@
 	<img src="<?=base_url()?>assets/img/logo itera oke.png" class="itera">
 	<h1>Sistem Informasi Laporan Praktikum</h1>
 	
-	<form class="Form" method="POST" action="<?=base_url()?>index.php/Home/Loginn">
+	<form class="Form" method="POST" action="<?=base_url()?>index.php/login/procLogin">
 		<div class="avatar">
 			<img src="<?=base_url()?>assets/img/img.png" class="ava">
 		</div>
