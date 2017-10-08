@@ -24,7 +24,7 @@
 				<div class="col-md-5">
 					<h3 style="font-size: 30px; color: blue; font-family:  'Lato', sans-serif;"><b>LIE-ITERA</b></h3>
 						<p style="display: block;"><i>Laboratory of Informatics Engineering</i></p>
-						<p style="display: block;"><i>Sumatera Institute of Technology</i></p>
+		 				<p style="display: block;"><i>Sumatera Institute of Technology</i></p>
 				</div>
 				<div class="col-md-12"></div>
 					<div>
@@ -55,9 +55,9 @@
 
 				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: black; text-decoration: none; display: block;"><span class="glyphicon glyphicon-list-alt"></span>Pengumuman<b class="caret"></b></a>
 					<ul class="dropdown-menu">
-						<li><a href="#">Panduan</a></li>
-						<li><a href="#">Informasi</a></li>
-						<li><a href="#">Nilai</a></li>
+						<li><a href="<?=base_url()?>index.php/home/panduan" style="color: black; text-decoration: none; display: block;">Panduan</a></li>
+						<li><a href="<?=base_url()?>index.php/home/informasi" style="color: black; text-decoration: none; display: block;">Informasi</a></li>
+						<li><a href="<?=base_url()?>index.php/home/nilai" style="color: black; text-decoration: none; display: block;">Nilai</a></li>
 					</ul>
 				</li>
 
@@ -67,7 +67,7 @@
 			</ul>
 			<form class="navbar-form pull-right" style="float: right;">
 				<input type="Search" style="background: #fff;" value="Search">
-				<button type="Search" class="btn btn-default">Search</button>
+				<button type="Search" class="btn btn-default" >Search</button>
 			</form>	
 			<ul class="nav navbar-nav navbar-right">
 		      <li><a href="#"  style="color: black; text-decoration: none;"><span class="glyphicon glyphicon-user" ></span> Sign Up</a></li>
@@ -87,11 +87,11 @@
 						<br>
 						<p><b>Selamat Datang Mahasiswa Teknik Informatika ITERA.</b></p>
 						<p>Berkaitan dengan bertambah banyaknya mahasiswa Teknik Informatika ITERA, maka akan mulai dilakukan pembuatan dan pengumpulan laporan resmi secara online untuk kegiatan praktikum.</p>
-						<p>Laporan praktikum yang sudah dikerjakan dapat dikumpul secara online sesuai dengan deadline pada matakuliah yang berkaitan.</p>
+						<p>Laporan praktikum yang sudah dikerjakan dapat dikumpul secara online sesuai dengan deadline pada mata kuliah yang berkaitan.</p>
 						<p>Adapun pengumpulannya secara individu dan tidak dapat diwakilkan, dan apabila ada yang berhalangan silahkan hubungi kordinator yang bersangkutan.</p>
 						<ul>
-							<li>Untuk panduan dan Pengumuman dapat dilihat ditautan<a href="/home/asa19/Kuliah/tubes/Pengumuman.html"> ini</a></li>
-							<li>Untuk melihat jadwal praktikum dapat dilihat di link <a href="/home/asa19/Kuliah/tubes/JadwalPraktikum.html">ini</a></li>
+							<li>Untuk mengetahui panduan praktikum dapat dilihat  <a href="<?=base_url()?>index.php/home/panduan">DISINI</a></li>
+							<li>Untuk melihat jadwal praktikum dapat dilihat  <a href="<?=base_url()?>index.php/home/JadwalPraktikum">DISINI</a></li>
 						</ul>
 						<p>Sebelum melakukan pengumpulan, perhatikan kembali panduan yang sudah disediakan.</p>
 						<p>Apabila mengalami kesulitan silahkan bertanya melalui form di bawah ini atau dapat menghubungi asisten masing-masing.</p>
@@ -157,11 +157,11 @@
 					</script>
 					
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-10">
 				<h4>Recent Post</h4>
 			<ul class="last-post">
-				<li><a href="#">Modul Dasar Pemrogaman</a></li>
-				<li><a href="#">Perubahan Jadwal</a></li>
+				<li><a href="https://drive.google.com/drive/u/1/folders/0B5EH5nQu99H3Rmk2ZmgwLVNJa00">Modul Praktikum PTI</a></li>
+				<li><a href="<?=base_url()?>index.php/home/JadwalPraktikum">Perubahan Jadwal</a></li>
 			</ul>
 		</div>
 			</div>
