@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Jadwal Praktikum - Laporan Hasil Praktikum</title>
+	<title>Contact Us- Laporan Hasil Praktikum</title>
 	<link rel="icon" type="image/png" href="<?=base_url()?>assets/img/logo itera oke.png">
 
 	<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/Home.css">
@@ -13,7 +13,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body>  
 <div class="container base">
   <div class="container">
 			<div class="row">
@@ -54,9 +54,9 @@
 
 				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: black; text-decoration: none; display: block;"><span class="glyphicon glyphicon-list-alt"></span>Pengumuman<b class="caret"></b></a>
 					<ul class="dropdown-menu">
-						<li><a href="#">Panduan</a></li>
-						<li><a href="#">Informasi</a></li>
-						<li><a href="#">Nilai</a></li>
+						<li><a href="<?=base_url()?>index.php/home/panduan" style="color: black; text-decoration: none; display: block;">Panduan</a></li>
+						<li><a href="<?=base_url()?>index.php/home/informasi" style="color: black; text-decoration: none; display: block;">Informasi</a></li>
+						<li><a href="<?=base_url()?>index.php/home/nilai" style="color: black; text-decoration: none; display: block;">Nilai</a></li>
 					</ul>
 				</li>
 
@@ -65,9 +65,9 @@
 				<li><a href="<?=base_url()?>index.php/home/contactus" style="color: black; text-decoration: none; display: block;"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a></li>
 			</ul>
 			<form class="navbar-form pull-right" style="float: right;">
-				<input type="Search" style="background: #fff;" value="Search">
+				<input type="Search" style="background: #fff;" placeholder="Search" >
 				<button type="Search" class="btn btn-default">Search</button>
-			</form>	
+			</form>
 			<ul class="nav navbar-nav navbar-right">
 		      <li><a href="#"  style="color: black; text-decoration: none;"><span class="glyphicon glyphicon-user" ></span> Sign Up</a></li>
 		      <li><a href="<?=base_url()?>index.php/home/Login"  style="color: black; text-decoration: none;"><span class="glyphicon glyphicon-log-in" ></span>Login</a></li>
@@ -77,50 +77,41 @@
 	</div>
 </nav>
 
-<div class="container content">
-	<div class="row">
-		<h3 style="text-align: center; font-size: 20px; font: Arial;">JADWAL PRAKTIKUM TEKNIK INFORMATIKA</h3>
-		<hr>
-		<br><br>
-		<div class="container-fluid">
-			<div class="row">
-				<table class="table table-hover">
-					<div class="container-fluid">
-					
-					<thead>
-						<tr>
-							<h4 style="text-align: center;">Semester Ganjil Tahun Ajaran 2017/2018</h4>
-							<th>Hari/Tanggal</th>
-							<th>Matakuliah</th>
-							<th>Waktu</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>Rabu</td>
-							<td >Algoritma dan Struktur Data.</td>
-							<td>10.30-12.30</td>
-						</tr>
-						<tr>
-							<td>Kamis</td>
-							<td>Dasar Pemrogaman.</td>
-							<td>13.00-15.30</td>
-						</tr>
-						<tr>
-							<td>Selasa</td>
-							<td>Jaringan Komputer.</td>
-							<td>10.00-12.30</td>
-						</tr>
-					</tbody>
-					</div>
-					
-				</table>
-			</div>	
+	<div class="container content">
+		<div class="row">
+			<div id="comment" class="comment-area">
+				<div id="respond" class="container comment-respond">
+					<h3 id="message-title" class="coment-message-title">Leave a Message</h3>
+					<form id="commentform" class="commant-form" action="" method="POST" role="form">
+						<p class="comment-notes">
+							<span id="email-notes">Your email is privated, not be publish.</span>
+						</p>
+						<div class="comment-form-content">
+							<label for="comment">Comment</label>
+							<textarea name="comment" id="comment" class="form-control" rows="8" required="required" cols="45" style="width: 50%;"></textarea>
+						</div>
+					</form>
+					<form>
+						<div class="form-group">
+							<label for="name">Nama :</label>
+							<input type="nama" name="" id="nama" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="email">Email :</label>
+							<input type="email" name="" id="email" class="form-control">
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="">
+								Remember me?
+							</label>
+						</div>
+						<button type="Kirim" class="btn btn-default" style="background: goldenrod;">Kirim Pesan</button>
+					</form>
+				</div>
+			</div>
 		</div>
-		
 	</div>
-</div>
-
 	<div class="container footer">
 		<div class="row">
 			<div class="col-md-12">
