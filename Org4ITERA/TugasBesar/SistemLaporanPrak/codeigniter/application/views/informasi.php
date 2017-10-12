@@ -78,15 +78,37 @@
 </nav>
 <div class="container content">
 	<div class="row">
-		<h3 style="text-align: center; font-size: 20px; font: Arial;"> INFORMASI </h3>
+		<h3 style="text-align: center; font-size: 20px; font: Arial;"> INFORMASI PRAKTIKUM </h3>
 		<hr>
 		<br><br>
 		<div class="container-fluid">
-			<div class="row">
-				<table class="table table-hover">
-					<div class="container-fluid">
+			<div class="entry">
+			<p>
+				<em> <strong> Semester Ganjil 2017 / 2018 </strong></em> 
+				</p>
+				<ol type="1 ">
+					<li> <a href="#" >Pengumuman penerimaan asisten</a></li>
+					<li> <a href="#" >pengumuman peserta praktikum</a></li>
+					<li> <a href="#" >format laporan praktikum</a></li>
+					<li> <a href="#" >form pendaftaran asisten</a></li>
+					<li> <a href="#" >form pendaftaran peserta praktikum</a></li>
+				</ol>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>
+					<em> <strong> CATATAN </strong> </em>
+				</p>
+				<em>
+					"Dimohon untuk setiap mahasiswa selalu mengecek website dan link ini, karena data dan pengumuman selalu update."
+				</em>
 
-				</table>
+				
 			</div>	
 		</div>
 		
