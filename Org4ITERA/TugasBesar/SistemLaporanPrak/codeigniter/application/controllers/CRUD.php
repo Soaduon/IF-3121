@@ -10,7 +10,7 @@ class CRUD extends CI_Controller
   public function index()
   {
     # code...
-    $this->load->view('main');
+    $this->load->view('home');
   }
   public function viewData(){
     $query = $this->Model->getNilai()->result_array();

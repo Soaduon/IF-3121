@@ -5,15 +5,15 @@
 	<link rel="icon" type="image/png" href="<?=base_url()?>assets/img/logo itera oke.png">
 
 	<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/Home.css">
-	
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	 
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>  
+<body>
 <div class="container base">
   <div class="container">
 			<div class="row">
@@ -67,12 +67,12 @@
 			<form class="navbar-form pull-right" style="float: right;">
 				<input type="Search" style="background: #fff;" value="Search">
 				<button type="Search" class="btn btn-default">Search</button>
-			</form>	
+			</form>
 			<ul class="nav navbar-nav navbar-right">
 		      <li><a href="#"  style="color: black; text-decoration: none;"><span class="glyphicon glyphicon-user" ></span> Sign Up</a></li>
 		      <li><a href="<?=base_url()?>index.php/home/Login"  style="color: black; text-decoration: none;"><span class="glyphicon glyphicon-log-in" ></span>Login</a></li>
     		</ul>
-			
+
 		</div><!-- /.navbar-collapse -->
 	</div>
 </nav>
@@ -85,22 +85,38 @@
 			<div class="row">
 				<table class="table table-hover">
 					<div class="container-fluid">
-
+						<thead>
+							<tr>
+								<h4 style="text-align: center;">Praktikum ASD Tahun Ajaran 2017/2018</h4>
+								<th>Nama</th>
+								<th>NIM</th>
+								<th>Nilai</th>
+							</tr>
+						</thead>
+						<tbody>
+						<?php echo $message;
+				    foreach ($nilai as $key => $value) {
+				      # code...
+							echo "<tr>";
+				      echo "<td>".$value['nama']."</td><td>".$value['nim']."</td><td>".$value['nilai'];
+				      echo "</td></tr>";
+				    }?>
+						</tbody>
 				</table>
-			</div>	
+			</div>
 		</div>
-		
+
 	</div>
 </div>
 
 	<div class="container footer">
 		<div class="row">
 			<div class="col-md-12">
-				Copyright © 2017 ORGANISASI 4 Institut Teknologi Sumatera 
+				Copyright © 2017 ORGANISASI 4 Institut Teknologi Sumatera
 			</div>
 		</div>
 	</div>
 
-	
+
 </body>
 </html>
