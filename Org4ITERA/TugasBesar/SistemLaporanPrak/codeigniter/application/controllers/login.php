@@ -9,13 +9,13 @@ class login extends CI_Controller
 
   public function index()
   {
-    $this->load->view('login');
+    $this->load->view('loogin');
   }
   public function procLogin()
   {
     extract($_POST);
 		$this->load->model('Model');
-		
+
     $query = $this->Model->getDataUser($_POST['username'])->result_array();
 
     if($query == null){

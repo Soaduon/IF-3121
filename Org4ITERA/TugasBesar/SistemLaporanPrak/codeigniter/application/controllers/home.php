@@ -41,7 +41,7 @@ class home extends CI_Controller
     $this->load->view('nilai',$data);
   }
 	public function Login (){
-		$this->load->view('Login');
+		$this->load->view('loogin');
 	}
 }
 ?>

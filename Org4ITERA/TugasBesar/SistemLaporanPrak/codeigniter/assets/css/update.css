@@ -2,12 +2,12 @@ body,
 html{
 	height: 100%;
 	width: 100%;
-	background: purple;
+	background: white;
 }
 
 .navbar{
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 	background: white;
 	border-radius: 0px;
 }
@@ -21,9 +21,16 @@ html{
 	justify-content: center;
 	color: black;
 }
-.navbar-text{
+ .form-group{
+ 	padding-top:5px;
+ }
+ .form-group button{
+ 	margin-left: 35px;
+ }
+ .navbar-text{
  	padding-right: 15px;
  }
- .navbar-brand{
- 	padding-left: 110px;
- }
+.btn btn-default btn-sm{
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
