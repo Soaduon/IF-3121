@@ -26,7 +26,7 @@ class CRUD extends CI_Controller
         'nilai' => $query
       );
     }
-    $this->load->view('LihatNilai',$data);
+    $this->load->view('nilaimhs',$data);
   }
   public function viewInput(){
     $this->load->view('InputNilai');

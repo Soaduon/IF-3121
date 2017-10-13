@@ -6,6 +6,11 @@ class Model extends CI_Model {
     ->where("tbl_user.username",$username)
     ->get();
   }
+  public function getUser(){
+    return $data = $this->db->select("*")
+                        ->from("tbl_user")
+                        ->get();
+  }
   public function getNilai(){
     return $data = $this->db->select("*")
                         ->from("tbl_nilai")

@@ -28,7 +28,7 @@
 						<div class="button-group in">
 							<p>
 							<button type="submit" class="btn btn-primary btn-md" name="loogin">Login</button>
-							<button class="btn btn-link btn-md">SIgn Up</button>
+							<button class="btn btn-link btn-md"><a href="<?php echo site_url('home')?>">Cancel</a></button>
 							</p>
 						</div>
 					</form>

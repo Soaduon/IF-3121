@@ -28,7 +28,7 @@ class login extends CI_Controller
         $username = $value['username'];
         $password = $value['password'];
         if($password == $_POST['password']){
-           $this->load->view('main');
+           $this->load->view('mainn');
         }else {
           $data = array(
             'message' => "Wrong Password"

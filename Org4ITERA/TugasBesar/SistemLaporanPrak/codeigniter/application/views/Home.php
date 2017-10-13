@@ -70,7 +70,7 @@
 				<button type="Search" class="btn btn-default" >Search</button>
 			</form>	
 			<ul class="nav navbar-nav navbar-right">
-		      <li><a href="#"  style="color: black; text-decoration: none;"><span class="glyphicon glyphicon-user" ></span> Sign Up</a></li>
+		      <li><a href="<?php echo site_url('signup/procsignup')?>"  style="color: black; text-decoration: none;"><span class="glyphicon glyphicon-user" ></span> Sign Up</a></li>
 		      <li><a href="<?=base_url()?>index.php/home/Login"  style="color: black; text-decoration: none;"><span class="glyphicon glyphicon-log-in" ></span>Login</a></li>
     		</ul>
 			
