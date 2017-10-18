@@ -9,7 +9,7 @@ class login extends CI_Controller
 
   public function index()
   {
-    $this->load->view('loogin');
+    $this->load->view('login_3');
   }
   public function procLogin()
   {
@@ -17,24 +17,22 @@ class login extends CI_Controller
 		$this->load->model('Model');
 
     $query = $this->Model->getDataUser($_POST['username'])->result_array();
-
-    if($query == null){
-       $data = array(
-         'message' => "Login Failure !!"
-       );
-    }else{
+    if ($username == '' || $password == '') {
+      $this->load->view('login_blank');
+    } else {
+      $flag = 0;
       foreach ($query as $key => $value) {
         # code...
         $username = $value['username'];
         $password = $value['password'];
-        if($password == $_POST['password']){
-           $this->load->view('mainn');
-        }else {
-          $data = array(
-            'message' => "Wrong Password"
-          );
+        if($password == $_POST['password'] && $username == $_POST['username']){
+          $this->load->view('mainn');
+          $flag = 1;
         }
       }
+      if ($flag == 0)  {
+        $this->load->view('loginfail');
+      }  
     }
   }
 }
