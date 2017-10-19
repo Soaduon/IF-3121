@@ -1,0 +1,103 @@
+div:hover {
+    background-color: yellow;
+    color: goldenrod; 
+    cursor: pointer;
+}
+.A{
+	border-left: 10px dashed #D0D0FF;
+
+    margin-top: auto;
+	margin-left:auto;
+	margin-right:10px; 
+	margin-bottom: auto;
+	text-align: left;
+	padding-left: 10px;
+	font-size: 40px;
+	font-family: tahoma;
+	background-color:#eeeff2;
+	width:110px;
+	height:150px;
+	float:left;
+}
+.B{
+	border-left: 10px dashed #D0D0FF;
+
+    margin-top: auto;
+	margin-left:auto;
+	margin-right:10px;
+	margin-bottom:auto;
+	text-align: left;
+	padding-left: 10px;
+	font-size: 40px;
+	font-family: tahoma;
+	background-color:#eeeff2;
+	width:110px;
+	height:150px;
+	float:left;
+}
+.C{
+	border-left: 10px dashed #D0D0FF;
+
+    margin-top: auto;
+	margin-left:auto;
+	margin-right:10px;
+	margin-bottom:auto;
+	text-align: left;
+	padding-left: 10px;
+	font-size: 40px;
+	font-family: tahoma;
+	background-color:#eeeff2;
+	width:110px;
+	height:150px;
+	float:left;
+}
+.D{
+	border-left: 10px dashed #D0D0FF;
+
+    margin-top: auto;
+	margin-left:auto;
+	margin-right:10px;
+	margin-bottom: auto;
+	text-align: left;
+	padding-left: 10px;
+	font-size: 40px;
+	font-family: tahoma;
+	background-color:#eeeff2;
+	width:110px;
+	height:150px;
+	float:left;
+}
+.E{
+	border-left: 10px dashed #D0D0FF;
+
+    margin-top: auto;
+	margin-left:auto;
+	margin-right:10px;
+	margin-bottom: auto;
+	text-align: left;
+	padding-left: 10px;
+	font-size: 40px;
+	font-family: tahoma;
+	background-color:#eeeff2;
+	width:110px;
+	height:150px;
+	float:left;
+}
+.F{
+	border-left: 10px dashed #D0D0FF;
+
+    margin-top: auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: auto;
+	text-align: left;
+	padding-left: 10px;
+	font-size: 40px;
+	font-family: tahoma;
+	background-color:#eeeff2;
+	width:110px;
+	height:150px;
+	position: absolute ;
+	right: 0px;
+	bottom: 0px;
+}

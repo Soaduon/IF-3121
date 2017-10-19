@@ -25,6 +25,7 @@ Diharapkan dengan tugas ini anda dapat mengerti:
 6. Pull request dari repository anda ke repository ini dengan format (hilangkan tanda bintang) **Nama kelompok** - **NIM terkecil** - **Nama Lengkap dengan NIM terkecil** sebelum **Senin, 6 Oktober 2017 23.59**.
 
 ### Link Laporan
+https://drive.google.com/drive/folders/0B9U64OYbrJPkb2YxejNyTk5qeTQ
 https://drive.google.com/file/d/0B0ftJSzgWn5oNDJhdXBuMzYtOHc/view?usp=sharing
 
 ### Topik Aplikasi
