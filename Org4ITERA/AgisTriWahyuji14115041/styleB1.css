@@ -1,0 +1,111 @@
+    
+    .A{
+        display: inline-block;
+        border: 10px dashed; padding:20px; 
+        border-left-color: #D0D0FF;
+        width: 100px;
+        height: 150px;
+        font-size :40px;
+        font-family :Tahoma;
+        text-align : left;
+        margin-left:10px;
+        background-color:#eeeff2;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+        cursor: pointer;
+    }
+
+    .A:hover{
+        background-color: yellow;
+    }
+
+    .B{
+        display: inline-block;
+        border: 10px dashed; padding:20px; 
+        border-left-color: #D0D0FF;
+        width: 100px;
+        height: 150px;
+        font-size :40px;
+        font-family :Tahoma;
+        text-align : left;
+        margin-left:10px;
+        background-color:#eeeff2;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+        cursor: pointer;
+        
+    }
+
+    .C{
+        display: inline-block;
+        border: 10px dashed; padding:20px; 
+        border-left-color: #D0D0FF;
+        width: 100px;
+        height: 150px;
+        font-size :40px;
+        font-family :Tahoma;
+        text-align : left;
+        margin-left:10px;
+        background-color:#eeeff2;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+        cursor: pointer;
+    }
+
+    .D{
+        display: inline-block;
+        border: 10px dashed; padding:20px; 
+        border-left-color: #D0D0FF;
+        width: 100px;
+        height: 150px;
+        font-size :40px;
+        font-family :Tahoma;
+        text-align : left;
+        margin-left:10px;
+        background-color:#eeeff2;   
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+        cursor: pointer;
+    }
+
+    .E{
+        display: inline-block;
+        border: 10px dashed; padding:20px; 
+        border-left-color: #D0D0FF;
+        width: 100px;
+        height: 150px;
+        font-size :40px;
+        font-family :Tahoma;
+        text-align : left;
+        margin-left:10px;
+        background-color:#eeeff2;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+        cursor: pointer;
+    }
+
+    .F{
+        display: inline-block;
+        border: 10px dashed; padding:20px; 
+        border-left-color: #D0D0FF;
+        width: 100px;
+        height: 150px;
+        font-size :40px;
+        font-family :Tahoma;
+        text-align : left;
+        margin-left:10px;
+        background-color:#eeeff2;
+        border-top: none;
+        border-right: none;
+        border-bottom: none;
+        cursor: pointer;
+        position: absolute;
+        bottom:16px;
+        right: 16px;
+    }
+  

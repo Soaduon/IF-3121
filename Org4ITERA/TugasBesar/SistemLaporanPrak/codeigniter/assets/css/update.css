@@ -1,0 +1,36 @@
+body,
+html{
+	height: 100%;
+	width: 100%;
+	background: white;
+}
+
+.navbar{
+	padding-top: 5px;
+	padding-bottom: 0px;
+	background: white;
+	border-radius: 0px;
+}
+.content{
+	padding-top: 10px;
+	background: white;
+}
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+}
+ .form-group{
+ 	padding-top:5px;
+ }
+ .form-group button{
+ 	margin-left: 35px;
+ }
+ .navbar-text{
+ 	padding-right: 15px;
+ }
+.btn btn-default btn-sm{
+	padding-bottom: 20px;
+	padding-top: 30px;
+}

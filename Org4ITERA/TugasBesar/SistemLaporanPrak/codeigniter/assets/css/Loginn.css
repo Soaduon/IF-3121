@@ -1,0 +1,131 @@
+html, body{
+	height: 100%;
+	 background: #f0f8ff;
+}
+
+h1 {
+	font-size: 16px;
+	color: #3a3222;
+	position: absolute;
+	top: 150px;
+	left: 480px;
+}
+
+.Form{
+	width:420px;
+	height:400px;
+	padding:30px;
+	background: #5d62a3;;
+	position: absolute;
+	top: 200px;
+	left: 350px;
+	
+	
+}
+.container{
+	background:#4f5496;
+	position: absolute;
+	top: 200px;
+	left:620px;
+	width: 310px;
+	height: 460px;
+
+}
+.hr1{
+	position: absolute;
+	top: 215px;
+	left: 10px;
+	color: #e8e0ce;
+}
+
+.hr2{
+	position: absolute;
+	top: 255px;
+	left: 10px;
+	color: #e8e0ce;
+
+}
+.ava{
+	width: 60px;
+	height: 60px;
+	border-radius: 6px;
+	position: absolute;
+	top: 75px;
+	left: 110px;
+}
+
+.Form input[type=password] {
+	position: absolute;
+	top: 240px;
+	left: 10px;
+	width: 250px;
+	height: 20px;
+	font-size: 16px;
+	border: 0px solid #fff;
+	background: #eee;
+	color: #020202;
+}
+
+.Form input[type=text] {
+	position: absolute;
+	top: 200px;
+	left: 10px;
+	width: 250px;
+	height: 20px;
+	border: 0px; 
+	background:#eee;
+	font-size: 16px;
+	color: #020202;
+}
+
+
+.a{
+	position: absolute;
+	left: 30px;
+	top: 270px;
+	width: 100px;
+	height: 40px;
+	border: 1px solid #fff;
+	background: #eee;
+	border-color: #e8e0ce;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #020202;
+	padding: 6px;
+	font-size: 18px;
+	margin-top: 10px;
+	
+}
+
+.b{
+	position: absolute;
+	left: 145px;
+	top: 270px;
+	width: 100px;
+	height: 40px;
+	border: 1px solid #fff;
+	background:#eee ;
+	border-color: #e8e0ce;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #020202;
+	padding: 6px;
+	font-size: 18px;
+	margin-top: 10px;
+	
+}
+.forgot{
+	color: #e8e0ce;
+	position: absolute;
+	top: 350px;
+	left: 75px;
+	cursor: pointer;
+	font-size: 14px;
+}
+.itera{
+	position: absolute;
+	top: 50px;
+	left: 550px;
+	width: 100px;
+	height: 100px;
+}
