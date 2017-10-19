@@ -1,0 +1,40 @@
+.ACE{
+	border: 0px;
+	border-left: 10px dashed #D0D0FF;
+	width: 90px; height: 150px;
+	background-color: #eeeff2;
+	font-family: tahoma; font-size: 40px;
+	margin-left: 10px;
+	padding-left: 10px;
+	cursor: pointer ;
+	display: inline-block;
+
+}
+.ACE:hover, .BD:hover, .F:hover{
+	background-color: yellow;
+	color: goldenrod;
+}
+.BD{
+	border: 0px;
+	border-left: 10px dashed #D0D0FF;
+	width: 90px; height: 150px;
+	background-color: #eeeff2;
+	font-family: tahoma; font-size: 40px;
+	margin-left: 10px;
+	padding-left: 10px;
+	cursor: pointer ;
+	display: inline-block;
+
+	}
+	.F{
+	border: 0px;
+	border-left: 10px dashed #D0D0FF;
+	width: 90px; height: 150px;
+	background-color: #eeeff2;
+	font-family: tahoma; font-size: 40px;
+	margin-top: 450px;
+	margin-right: auto;
+	padding-left: 10px;
+	cursor: pointer ;
+	float: right;
+}

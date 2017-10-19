@@ -26,6 +26,7 @@ Diharapkan dengan tugas ini anda dapat mengerti:
 
 ### Link Laporan
 https://drive.google.com/drive/folders/0B9U64OYbrJPkb2YxejNyTk5qeTQ
+https://drive.google.com/file/d/0B0ftJSzgWn5oNDJhdXBuMzYtOHc/view?usp=sharing
 
 ### Topik Aplikasi
 1. Manajemen Surat
